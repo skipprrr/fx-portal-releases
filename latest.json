@@ -1,10 +1,10 @@
 {
-  "build": 4,
+  "build": 5,
   "version": "1.0.0",
-  "label": "rc.1",
-  "title": "FX Portal 1.0.0 — Release Candidate 1",
-  "notes": "## FX Portal 1.0.0 — Release Candidate 1\n\n### New\n- **Copy and paste effects.** Select one clip and press Ctrl+Space. Under the search bar you'll see every effect on that clip. Click one to copy just that effect, or **Copy all effects**. Then select other clips, open FX Portal, and click **Paste copied effects**. Keyframes and easing come through exactly.\n- **Bar opens in the middle of the screen.** Drag it anywhere and it stays there next time. Double-click it to put it back in the middle.\n- **Presets apply silently.** Premiere's Paste Attributes box no longer flashes on screen, and applying is faster.\n\n### Install / update\n- Already on Beta 2 or newer: it updates itself (or Settings ▸ Updates ▸ Check now). Restart Premiere when it says so.\n- New install: download the zip, extract, close Premiere, double-click **Install FX Portal.cmd**.\n\n### Known limits\nWindows only · audio presets not yet supported · not code-signed yet (the installer handles it).\n",
-  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-rc.1.zip",
-  "sha256": "8c6881590bfb1f52f4b557edabdb4386334dc18e92a81899987baebaf1f3d9e8",
-  "date": "2026-10-03T17:56:53.909Z"
+  "label": "rc.2",
+  "title": "FX Portal 1.0.0 — Release Candidate 2",
+  "notes": "## FX Portal 1.0.0 — Release Candidate 2\n\nFixes for RC1.\n\n### Fixed\n- **Freezes:** the helper no longer ties itself into Premiere's keyboard handling when bringing windows forward. That could stall Premiere while it was busy. It also used an Alt tap that could open Premiere's menu bar; it now uses a key no app uses.\n- **Invisible paste is now safe:** only Premiere's *Paste Attributes* box is ever hidden. Error boxes always stay visible. If Paste Attributes doesn't close, it's shown again so you can finish it.\n- **Clean edges:** no glow or shadow is drawn outside the bar any more (that caused the black bars and broken pixels). The moving light stays inside the bar's edge.\n- **Double-click no longer makes the bar disappear:** it just moves back to the middle. Dragging doesn't hide it either.\n- Errors shown in the bar are now also written to the log (Settings ▸ Lab ▸ Open data folder ▸ service.log).\n\n### New\n- **Copy several effects:** tick the effects you want under \"On [clip]\", then click **Copy N selected effects**. **Copy all effects** is still there.\n",
+  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-rc.2.zip",
+  "sha256": "f37e0514c084c83a42e464c50473062ff1dcd85413fc825de98a1b6e4d5c47c5",
+  "date": "2026-10-03T18:10:34.663Z"
 }
