@@ -1,10 +1,10 @@
 {
-  "build": 3,
+  "build": 4,
   "version": "1.0.0",
-  "label": "beta.3",
-  "title": "FX Portal 1.0.0 — Beta 3",
-  "notes": "## FX Portal 1.0.0 — Beta 3\n\n### New: floating search bar\n- **No more panel window.** Ctrl+Space shows a borderless floating bar over Premiere, like Spotlight on a Mac. No title bar, no taskbar entry, and it doesn't take up space in your workspace.\n- **Click anywhere else and it disappears.** Esc does the same. Ctrl+Space again toggles it.\n- **One click applies** (Shift+click keeps the bar open). Hovering highlights.\n- **Moving light**: a single-colour light travels around the bar.\n- **Results drop down only when there's something to show**, and the bar resizes to fit.\n- Settings ▸ **Appearance**: pick the light colour (Emerald, Ice, Amber, Iris, Rose, Cyan).\n- Gear icon on the bar opens Settings.\n\n### Install\n1. Download **FX-Portal-1.0.0-beta.3.zip** below, right-click → **Extract All**.\n2. Close Premiere, double-click **Install FX Portal.cmd**.\n3. Open Premiere, wait a few seconds, press **Ctrl+Space**.\n\nThe very first Ctrl+Space after starting Premiere shows the window for a split second before it turns into the floating bar. After that it's instant.\n\n### Known limits\nWindows only · audio presets not yet supported · not code-signed yet (the installer handles it).\n",
-  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-beta.3.zip",
-  "sha256": "c61393c46232645a5b498c45ca22142d0fcf084dc77785cdc5d47f94df5a8dc6",
-  "date": "2026-10-03T17:27:58.948Z"
+  "label": "rc.1",
+  "title": "FX Portal 1.0.0 — Release Candidate 1",
+  "notes": "## FX Portal 1.0.0 — Release Candidate 1\n\n### New\n- **Copy and paste effects.** Select one clip and press Ctrl+Space. Under the search bar you'll see every effect on that clip. Click one to copy just that effect, or **Copy all effects**. Then select other clips, open FX Portal, and click **Paste copied effects**. Keyframes and easing come through exactly.\n- **Bar opens in the middle of the screen.** Drag it anywhere and it stays there next time. Double-click it to put it back in the middle.\n- **Presets apply silently.** Premiere's Paste Attributes box no longer flashes on screen, and applying is faster.\n\n### Install / update\n- Already on Beta 2 or newer: it updates itself (or Settings ▸ Updates ▸ Check now). Restart Premiere when it says so.\n- New install: download the zip, extract, close Premiere, double-click **Install FX Portal.cmd**.\n\n### Known limits\nWindows only · audio presets not yet supported · not code-signed yet (the installer handles it).\n",
+  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-rc.1.zip",
+  "sha256": "8c6881590bfb1f52f4b557edabdb4386334dc18e92a81899987baebaf1f3d9e8",
+  "date": "2026-10-03T17:56:53.909Z"
 }
