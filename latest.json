@@ -1,10 +1,10 @@
 {
-  "build": 5,
+  "build": 6,
   "version": "1.0.0",
-  "label": "rc.2",
-  "title": "FX Portal 1.0.0 — Release Candidate 2",
-  "notes": "## FX Portal 1.0.0 — Release Candidate 2\n\nFixes for RC1.\n\n### Fixed\n- **Freezes:** the helper no longer ties itself into Premiere's keyboard handling when bringing windows forward. That could stall Premiere while it was busy. It also used an Alt tap that could open Premiere's menu bar; it now uses a key no app uses.\n- **Invisible paste is now safe:** only Premiere's *Paste Attributes* box is ever hidden. Error boxes always stay visible. If Paste Attributes doesn't close, it's shown again so you can finish it.\n- **Clean edges:** no glow or shadow is drawn outside the bar any more (that caused the black bars and broken pixels). The moving light stays inside the bar's edge.\n- **Double-click no longer makes the bar disappear:** it just moves back to the middle. Dragging doesn't hide it either.\n- Errors shown in the bar are now also written to the log (Settings ▸ Lab ▸ Open data folder ▸ service.log).\n\n### New\n- **Copy several effects:** tick the effects you want under \"On [clip]\", then click **Copy N selected effects**. **Copy all effects** is still there.\n",
-  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-rc.2.zip",
-  "sha256": "f37e0514c084c83a42e464c50473062ff1dcd85413fc825de98a1b6e4d5c47c5",
-  "date": "2026-10-03T18:10:34.663Z"
+  "label": "rc.3",
+  "title": "FX Portal 1.0.0 — Release Candidate 3",
+  "notes": "## FX Portal 1.0.0 — Release Candidate 3\n\n### Sounds\n- **No more surprise sounds:** results don't play on their own. A sound plays when you hover it (rest the mouse a moment) or arrow to it.\n- **Waveform:** every sound shows its waveform. **Drag on it to pick a part** and you'll hear that part. Enter or click inserts **only that part** (as a subclip, so the original stays untouched). Double-click the waveform to go back to the whole sound. Click anywhere on it to listen from there.\n\n### Your own bins\n- Settings ▸ Folders: each folder has **Import into bin**. SFX → \"SFX\", music → \"Music\", or nested like `Audio/SFX`. Missing bins are created. (Default: the folder's name, instead of one \"FX Portal\" bin.)\n- Pasted images go into a \"Pasted Images\" bin.\n",
+  "zip": "https://raw.githubusercontent.com/skipprrr/fx-portal-releases/main/builds/FX-Portal-1.0.0-rc.3.zip",
+  "sha256": "1a87db741ab0c8aef1d0b3056ab53d2a3a0197f921f29db56785642bb994392d",
+  "date": "2026-10-04T06:22:00.663Z"
 }
